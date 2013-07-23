@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.2" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="creditcard.utils.CreditCard" project="CreditCardFramework" 
+    file="/CreditCardFramework/src/creditcard/utils/CreditCard.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="289" y="535" width="274" height="60"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="creditcard.utils.CreditCardFactory" project="CreditCardFramework" 
+    file="/CreditCardFramework/src/creditcard/utils/CreditCardFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="268" y="648" width="303" height="124"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="creditcard.utils.SingletonCC" project="CreditCardFramework" 
+    file="/CreditCardFramework/src/creditcard/utils/SingletonCC.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="831" y="541" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="4" language="java" name="creditcard.utils.CreditCardProcessor" project="CreditCardFramework" 
+    file="/CreditCardFramework/src/creditcard/utils/CreditCardProcessor.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="460" y="162" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class id="5" language="java" name="creditcard.utils.Amex" project="CreditCardFramework" 
+    file="/CreditCardFramework/src/creditcard/utils/Amex.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="297" y="341" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="creditcard.utils.Discover" project="CreditCardFramework" 
+    file="/CreditCardFramework/src/creditcard/utils/Discover.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="105" y="332" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="creditcard.utils.Master" project="CreditCardFramework" 
+    file="/CreditCardFramework/src/creditcard/utils/Master.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="502" y="341" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="creditcard.utils.Visa" project="CreditCardFramework" 
+    file="/CreditCardFramework/src/creditcard/utils/Visa.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="727" y="338" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="9" language="java" name="creditcard.utils.CreditCardType" project="CreditCardFramework" 
+    file="/CreditCardFramework/src/creditcard/utils/CreditCardType.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="140" y="676" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </enumeration>  
+  <realization id="10">    
+    <bendpoint x="103" y="165"/>    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <realization id="11">    
+    <bendpoint x="728" y="167"/>    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <realization id="12">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <association id="13">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="14" name="theCC"/>      
+      <multiplicity id="15" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="16">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="17" name="ccProcess"/>      
+      <multiplicity id="18" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="19">    
+    <bendpoint x="488" y="238"/>    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <association id="20">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="21" name="theCCInfo"/>      
+      <multiplicity id="22" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="23">    
+    <bendpoint x="657" y="517"/>    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="24" name="theCC"/>      
+      <multiplicity id="25" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="26">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="27" name="theCC"/>      
+      <multiplicity id="28" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="29">    
+    <bendpoint x="96" y="560"/>    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="30" name="theCC"/>      
+      <multiplicity id="31" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="32">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="33" name="ccType"/>      
+      <multiplicity id="34" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="35">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="36" name="theCC"/>      
+      <multiplicity id="37" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

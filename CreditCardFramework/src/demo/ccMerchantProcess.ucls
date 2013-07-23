@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.2" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="creditcard.utils.CreditCardFactory" project="CreditCardFramework" 
+    file="/CreditCardFramework/src/creditcard/utils/CreditCardFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="284" y="576" width="303" height="124"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="2" language="java" name="creditcard.utils.CreditCardProcessor" project="CreditCardFramework" 
+    file="/CreditCardFramework/src/creditcard/utils/CreditCardProcessor.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="460" y="162" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class id="3" language="java" name="creditcard.utils.Amex" project="CreditCardFramework" 
+    file="/CreditCardFramework/src/creditcard/utils/Amex.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="297" y="341" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="creditcard.utils.Discover" project="CreditCardFramework" 
+    file="/CreditCardFramework/src/creditcard/utils/Discover.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="105" y="332" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="creditcard.utils.Master" project="CreditCardFramework" 
+    file="/CreditCardFramework/src/creditcard/utils/Master.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="502" y="341" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="creditcard.utils.Visa" project="CreditCardFramework" 
+    file="/CreditCardFramework/src/creditcard/utils/Visa.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="727" y="338" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="7" language="java" name="creditcard.utils.CreditCardType" project="CreditCardFramework" 
+    file="/CreditCardFramework/src/creditcard/utils/CreditCardType.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position x="140" y="676" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </enumeration>  
+  <realization id="8">    
+    <bendpoint x="728" y="167"/>    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <realization id="9">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <realization id="10">    
+    <bendpoint x="488" y="238"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <realization id="11">    
+    <bendpoint x="103" y="165"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

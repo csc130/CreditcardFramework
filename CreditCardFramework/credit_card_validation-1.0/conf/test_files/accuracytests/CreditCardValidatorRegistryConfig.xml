@@ -1,0 +1,22 @@
+<CMConfig>
+    <Config name="com.topcoder.ecommerce.creditcard.validation.CreditCardValidatorRegistry">
+        <Property name="AmericanExpress">
+            <Value>com.topcoder.ecommerce.creditcard.validation.AmericanExpressValidator</Value>
+        </Property>
+        <Property name="JCB">
+            <Value>com.topcoder.ecommerce.creditcard.validation.JCBValidator</Value>
+        </Property>
+        <Property name="MasterCard">
+            <Value>com.topcoder.ecommerce.creditcard.validation.MasterCardValidator</Value>
+        </Property>
+        <Property name="DinersClub">
+            <Value>com.topcoder.ecommerce.creditcard.validation.DinersClubValidator</Value>
+        </Property>
+        <Property name="Discover">
+            <Value>com.topcoder.ecommerce.creditcard.validation.DiscoverValidator</Value>
+        </Property>
+        <Property name="Visa">
+            <Value>com.topcoder.ecommerce.creditcard.validation.VisaValidator</Value>
+        </Property>
+    </Config>
+</CMConfig>
